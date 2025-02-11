@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 from datetime import datetime
-import os
+import os, time, random
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
