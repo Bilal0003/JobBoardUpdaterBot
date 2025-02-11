@@ -70,7 +70,7 @@ def NavigateFunction():
         log("=" * 100)
         log(f"Reached {URL}")
     except Exception as e:
-        log(f"Failed to reach {URL}")
+        log(f"Failed to reach {URL}: {str(e)}")
         return
 
     # Reject Coockies
