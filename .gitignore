@@ -1,3 +1,5 @@
 venv/
 .env
 steps.md
+logfile.log
+CV.pdf
